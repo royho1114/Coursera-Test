@@ -1,0 +1,21 @@
+.navbar-brand p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	text-align: center;
+	color: #DDDDDD;
+}
+
+#collapsable-nav hr {
+	margin: 0px 20px 0px 20px;
+	border-color: #DDDDDD;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		border: 1px solid #DDDDDD;
+		background-color: #555555;
+	}
+}
+	
