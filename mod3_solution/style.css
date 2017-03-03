@@ -1,15 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
 .navbar-brand p {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
 .navbar-default .navbar-nav > li > a {
 	text-align: center;
 	color: #DDDDDD;
 }
 
+.dish_box {
+	margin-bottom: 20px;
+	padding: 20px 15px 10px 15px;
+}
+
 #collapsable-nav hr {
 	margin: 0px 20px 0px 20px;
 	border-color: #DDDDDD;
+}
+
+#chicken-content {
+	background-color: #aa5555;
+}
+
+#beef-content {
+	background-color: #55aa55;
+}
+
+#sushi-content {
+	background-color: #5555aa;
 }
 
 @media (max-width: 767px) {
