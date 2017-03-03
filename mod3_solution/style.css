@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-h2 {
+h1 {
 	margin-bottom: 20px;
 }
 
@@ -38,6 +38,10 @@ h2 {
 
 #sushi-content {
 	background-color: #5555aa;
+}
+
+.dish_box a {
+	color: #ffffff;
 }
 
 @media (max-width: 767px) {
